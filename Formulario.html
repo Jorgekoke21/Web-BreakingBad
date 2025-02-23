@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    
+
+
+
+</head>
+
+
+<body class="fondo">
+    
+    <h1 class="titulo">Breaking Bad – Que comience el juego!</h1> 
+
+    <form action="mailto: raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank" >
+
+        <fieldset>
+
+            <legend>Datos personales </legend>
+        
+            <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required> 
+        
+                <br><label for="apellidos">Apellidos:</label><br>
+                <input type="text" id="apellidos" name="apellidos" required>  
+        
+                <br><label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required>  
+        
+                <br><label for="dni">DNI:</label><br>
+                <input type="text" id="dni" name="dni"><br>
+        
+                <br><label for="sexo">Sexo:</label>
+                <input type="radio" id="hombre" name="sexo" value="hombre">
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer">
+                <label for="mujer">Mujer</label><br>
+        
+                <br><label for="fecha_nacimiento">Fecha Nacimiento:</label><br>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br>
+
+            </fieldset>
+
+        <fieldset>
+                <legend>Dirección </legend>
+        
+                <label for="calle">Calle:</label><br>
+                <input type="text" id="calle" name="calle"><br>
+
+                <br><label for="numero">Número:</label><br>
+                <input type="number" id="numero" name="numero"><br>
+
+                <br><label for="piso">Piso:</label><br>
+                <input type="text" id="piso" name="piso"><br>
+        
+                <br><label for="codigo_postal">Código Postal:</label><br>
+                <input type="number" id="codigo_postal" name="codigo_postal"><br>
+        
+                <br><label for="ciudad">Ciudad:</label><br>
+                <input type="text" id="ciudad" name="ciudad"><br>
+
+        </fieldset>
+
+        <fieldset>
+            
+            <label for="nombres">Elige tu personaje favorito:</label>
+
+            <select id="nombres" name="nombres">
+                    <option value="nombre1">Jessie Pinkman</option>
+                    <option value="nombre2">Walter White</option>
+                    <option value="nombre3">Saul Goodman</option>
+                    <option value="nombre4">Gustavo Fring</option>
+                    <option value="nombre5">Pollos Hermanos</option>
+                    <option value="nombre6">Otros personajes</option>
+            </select><br>
+        
+            <br><label for="comentarios">Caja de Comentarios:</label><br>
+            <br><textarea id="comentarios" name="comentarios">Escribe tu opinion</textarea><br>
+        
+            
+            <br><input type="submit" value="Enviar"> <br>  
+        
+            <br><input type="reset" value="Borrar"> <br>
+        
+            <br><label for="archivo"></label>
+        
+            <input type="file" id="archivo" name="archivo">
+
+            </div>
+
+        </fieldset>
+        
+
+        
+    </form>
+
+
+
+
+</body>
+</html>
+
